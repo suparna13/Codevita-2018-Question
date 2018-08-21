@@ -6,8 +6,8 @@ r1=int(input())
 v2=int(input())
 r2=int(input())
 time=int(input())
-angle_A=90+(time*v1)
-angle_B=90+(time*v2)
+angle_A=(time*v1)
+angle_B=(time*v2)
 if angle_A > angle_B:
     final_angle=angle_A-angle_B
 else:
